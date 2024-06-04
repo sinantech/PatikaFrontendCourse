@@ -1,7 +1,5 @@
 # React-Hub All Practices
 
-![Patika+ Full Stack Bootcamp](https://github.com/sinantech)
-
 This repository is an archive containing all the projects I have completed during my React learning journey.
 
 ## Project Structure
