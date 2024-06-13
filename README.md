@@ -7,15 +7,21 @@ This repository is an archive containing all the projects I have completed durin
 ### Week 1
 
 <details>
-<summary>Click to expand Week 1 projects</summary>
+<summary>Click to expand week 1 projects and pre-work.</summary>
 
-| #   | Project Name | Source Code    |
+| # | Project Name | Source Code |
+
 | --- |--------------|----------------|
-| 1   | Prework-1    | [Source](https://github.com/sinantech/PatikaFrontEndCourse/blob/main/PreworkPractice/index.html) |
 
+| 0 | Pre Work | [Source](https://github.com/sinantech/PatikaFrontEndCourse/blob/main/PreworkPractice/index.html) |
+
+| --- |--------------|----------------|
+
+| 1 | Week-1 | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/WeekOne) |
+
+### Week 2
 
 </details>
-
 
 ## License
 
