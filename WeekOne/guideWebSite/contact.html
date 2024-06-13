@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #4CAF50;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        .main {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="index.html">Home Page</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<div class="container">
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <div class="main">
+        <h2>Contact Info</h2>
+        <ul>
+            <li>Address: Devil Reef Hotel. 37745 Innsmouth</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>E-mail: info@devilsreef.com</li>
+        </ul>
+        <h3>Contact Form</h3>
+        <form action="mailto:info@devilsreef.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+
+            <label for="email">E-Mail Address:</label>
+            <input type="email" id="email" name="email" placeholder="E-Mail Address">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
+</body>
+</html>
