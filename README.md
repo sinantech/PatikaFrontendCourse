@@ -25,3 +25,7 @@ This repository is an archive containing all the projects I have completed durin
 ## License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Author
+
+Sinan Can Ozer
