@@ -15,9 +15,10 @@ This repository is an archive containing all the projects I have completed durin
 | 1   | Week-1       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/WeekOne) |
 
 
-### Week 2
 
 </details>
+
+### Week 2
 
 ## License
 
