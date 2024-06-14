@@ -82,3 +82,17 @@ footer {
     color: #ccc;
     font-size: 0.9em;
 }
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: #f7ca18;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
