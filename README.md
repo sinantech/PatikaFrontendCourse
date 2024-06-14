@@ -4,21 +4,23 @@ This repository is an archive containing all the projects I have completed durin
 
 ## Project Structure
 
-### Week 1
+### Weeks
 
 <details>
-<summary>Click to expand week 1 projects and pre-work.</summary>
+<summary>Click to expand all projects and pre-work.</summary>
 
 | #   | Project Name | Source Code |
 | --- |--------------|-------------|
 | 0   | Pre Work     | [Source](https://github.com/sinantech/PatikaFrontEndCourse/blob/main/PreworkPractice/index.html) |
 | 1   | Week-1       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/WeekOne) |
+| 2   | Week-2       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/WeekTwo) |
+
 
 
 
 </details>
 
-### Week 2
+
 
 ## License
 
