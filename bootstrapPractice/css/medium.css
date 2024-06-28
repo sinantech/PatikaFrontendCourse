@@ -1,3 +1,12 @@
+body{
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: large;
+      }
+}
+
 .bg-yellow {
     background-color:#FFC017; 
 }
