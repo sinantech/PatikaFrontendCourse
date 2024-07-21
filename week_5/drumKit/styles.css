@@ -5,8 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     background: url('images/drum.png') no-repeat center center fixed;
-    background-size: cover;
-    color: #ea7013;
+    background-size: contain;
+    color: #ff6f00;
     font-family: Arial, sans-serif;
 }
 
