@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategoriler | Yemek Tarifleri</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <header>
+        <nav class="bg-white shadow p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-blue-600">Yemek Tarifleri</a>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="text-gray-700 hover:text-blue-600">Anasayfa</a></li>
+                    <li><a href="add_recipe.html" class="text-gray-700 hover:text-blue-600">Tarif Ekle</a></li>
+                    <li><a href="categories.html" class="text-gray-700 hover:text-blue-600">Kategoriler</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto my-8">
+        <section id="categories">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Kategoriler</h2>
+            <div id="category-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Kategoriler buraya eklenecek -->
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            © 2024 Yemek Tarifleri
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

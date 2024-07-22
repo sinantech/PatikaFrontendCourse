@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarif Ekle | Yemek Tarifleri</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <header>
+        <nav class="bg-white shadow p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-blue-600">Yemek Tarifleri</a>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="text-gray-700 hover:text-blue-600">Anasayfa</a></li>
+                    <li><a href="add_recipe.html" class="text-gray-700 hover:text-blue-600">Tarif Ekle</a></li>
+                    <li><a href="categories.html" class="text-gray-700 hover:text-blue-600">Kategoriler</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto my-8">
+        <section id="add-recipe">
+            <h2 class="text-3xl font-bold mb-4 text-center text-gray-800">Yeni Tarif Ekle</h2>
+            <form id="add-recipe-form" class="bg-white shadow-md rounded p-8 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="recipe-title" class="block text-gray-700 font-bold mb-2">Tarif Başlığı:</label>
+                    <input type="text" id="recipe-title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-4">
+                    <label for="recipe-category" class="block text-gray-700 font-bold mb-2">Kategori:</label>
+                    <input type="text" id="recipe-category" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-4">
+                    <label for="recipe-ingredients" class="block text-gray-700 font-bold mb-2">Malzemeler:</label>
+                    <textarea id="recipe-ingredients" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                </div>
+                <div class="mb-4">
+                    <label for="recipe-instructions" class="block text-gray-700 font-bold mb-2">Talimatlar:</label>
+                    <textarea id="recipe-instructions" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                </div>
+                <div class="mb-4">
+                    <label for="recipe-image" class="block text-gray-700 font-bold mb-2">Resim:</label>
+                    <input type="file" id="recipe-image" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Ekle</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            © 2024 Yemek Tarifleri
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
