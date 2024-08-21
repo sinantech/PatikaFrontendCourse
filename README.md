@@ -12,13 +12,14 @@ This repository is an archive containing all the projects I have completed durin
 | #   | Project Name | Source Code                                                                                      |
 | --- |--------------|--------------------------------------------------------------------------------------------------|
 | 0   | Pre Work     | [Source](https://github.com/sinantech/PatikaFrontEndCourse/blob/main/PreworkPractice/index.html) |
-| 1   | Week-1       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_1)                     |
-| 2   | Week-2       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_2)                     |
-| 3   | Week-3       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_3)                     |
-| 4   | Week-4       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_4)                     |
-| 5   | Week-5       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_5)                     |
-| 6   | Week-6       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_6)                     |
-| 7   | Week-7       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/Week_7_apple_website)       |
+| 1   | Week-1       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/1st-week)                     |
+| 2   | Week-2       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/2nd-week)                     |
+| 3   | Week-3       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/3rd-week)                     |
+| 4   | Week-4       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/4th-week)                     |
+| 5   | Week-5       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/5th-week)                     |
+| 6   | Week-6       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/6th-week)                     |
+| 7   | Week-7       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/7th-week)                     |
+| 8   | Week-8       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/8th-week)                     |
 
 Week 7 main.js kodları açıklaması:
 
