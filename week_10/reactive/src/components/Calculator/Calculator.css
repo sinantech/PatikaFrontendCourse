@@ -1,0 +1,59 @@
+
+.bmi-index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+    width: 41rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--gray-color);
+    gap: 2.5rem;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:1rem;
+    border: var(--gray-color);
+}
+.calculator > div > img{
+    height: 20rem;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: var(--gray-color);
+}
+.bmi-index > h2 {
+    color:var(--blue-color);
+    font-size: 3rem;
+}
+.img-bmi img {
+    height: 20rem;
+}
+.img-bmi {
+    position: relative;
+}
+.after {
+    content: "";
+    position: absolute;
+    bottom: -2rem;
+    left: var(--after-left);
+    background-color: var(--orange-color);
+    width: 3rem;
+    height: 2rem;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.calculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 17rem;
+}
+#result {
+    padding-left: 1rem;
+}

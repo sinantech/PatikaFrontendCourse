@@ -1,0 +1,41 @@
+.hero {
+    padding: 1rem 17rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./src/img/hero-man.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    padding: 12rem 12rem;
+}
+.hero-text > div > span {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.hero-text > p {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(14, 14, 14, 0.428)
+}
+.power-btn, .sign-btn {
+    color: var(--text-color);
+    background-color: var(--blue-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.details-btn {
+    margin-left: 4rem;
+    color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0); /* şeffaflığı sağladım */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 0.1rem solid var(--text-color);
+}
+.sign-btn:hover, .details-btn:hover{
+    background-color: var(--orange-color);
+
+}

@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    z-index: 10; /* daha sonra kullanacağım absolute'lerin üstünde kalması için verdim */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(255, 255, 255, 0)
+  
+}
+header a{
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    font-weight: bold;
+    
+}
+header > nav > a:hover {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--text-color);
+    color:var(--blue-color);
+}
+.join-btn {
+    background-color: var(--orange-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.join-btn:hover {
+    background-color:var(--text-color);
+    color:var(--blue-color);
+}

@@ -1,0 +1,47 @@
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+    color: var(--gray-color);
+}
+.card {
+    text-align: center;
+    border-style:hidden;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Default biraz gölge verdim */
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    background-color: #f0f0f0;
+    transition: box-shadow 0.3s;
+    transition: background-color 0.3s;
+}
+.card > img {
+    height: 25rem;
+    width: 20rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.shop {
+    display: flex;
+    justify-content: last baseline;
+    gap: 4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* x-y-bulanıklık-renk */
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover .shop {
+    border-style: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--blue-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,81 @@
+.btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    color:var(--text-color);
+    font-size: 1.5rem;
+    transition: box-shadow 0.3s ease; /* gölgenin geliş özellikleri*/
+}
+.selected{
+    background-color: var(--orange-color);
+    box-shadow: 0 0 1rem var(--orange-color); 
+}
+.selected::after { /* butonlar active olduğunda afterına bir şey ekle*/
+    content:"";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--orange-color);
+    width: 2rem;
+    height: 0.5rem;
+    clip-path: polygon(100% 0, 0 0, 53% 100%);
+}
+.text-img {
+    padding: 5rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-direction: row;
+}
+.classes {
+    position: relative;
+}
+.background { /* arka plandaki gri alan*/
+    background-color: #f1f1f1;
+    position: absolute;
+    top:0;
+    right: 0;
+    clip-path: polygon(36% 0%, 100% 0, 100% 100%, 51% 100%);
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+}
+.classes-text {
+    padding: 3rem;
+    width: 45rem;
+    height: 30rem;
+    color: var(--gray-color);
+    font-weight: bold;
+}
+.classes-text h3 {
+    font-size: 2.2rem;
+}
+.classes-text p{
+    font-size: 1.2rem;
+}
+.our-classes {
+    color: #325492;
+    
+}
+.first-parag {
+    
+    font-size: 1.2rem; 
+    padding-top: 2rem;
+}
+.text-img.reversed {
+    flex-direction: row-reverse;
+  }

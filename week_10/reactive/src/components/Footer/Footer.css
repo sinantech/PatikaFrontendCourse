@@ -1,0 +1,16 @@
+footer {
+    padding: 1rem 17rem;
+    font-size: 1.2rem;
+    background-color: var(--blue-color);
+    color: var(--text-color);
+}
+.footer-links > div > a {
+    color: var(--text-color);
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}

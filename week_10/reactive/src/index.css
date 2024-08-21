@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /* width: (100%, 70rem); */
+}
+html {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+:root {
+    --blue-color: #355592;
+    --orange-color: #F69D08;
+    --aquablue-color: #F2F8FF;
+    --gray-color: #4D4D4D;
+    --text-color: white;
+    --after-left: 5%;
+}

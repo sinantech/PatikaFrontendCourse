@@ -1,0 +1,54 @@
+.review {
+    background-color: var(--aquablue-color);
+}
+.client {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7rem;
+}
+.client-head {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 7rem;
+    color: var(--gray-color);
+}
+.client-img {
+    border-radius: 50%;
+    height: 5rem;
+}
+.client-p {
+    width: 40rem;
+    height: 10rem;
+    background-color: var(--blue-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.client-title {
+    display: flex;
+}
+.client-p::after { /* sol taraftaki üçgeni yaptım */
+    content:"";
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top:100%;
+    left:0;
+    background-color: #719beb;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+.client-head::after { /* sağ taraftaki üçgeni yaptım */
+    content:"";
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top:100%;
+    right: 0;
+    background-color:  #719beb;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}

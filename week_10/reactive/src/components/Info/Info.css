@@ -1,0 +1,21 @@
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    background-color: var(--aquablue-color);
+}
+.info div {
+    text-align: center;
+    background-color: var(--text-color);
+    padding: 2rem;
+    font-size: 1.7rem;
+    width: 20rem;
+}
+.number {
+    color: var(--blue-color);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
