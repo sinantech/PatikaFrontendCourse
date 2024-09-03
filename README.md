@@ -21,6 +21,7 @@ This repository is an archive containing all the projects I have completed durin
 | 7   | Week-7       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/7th-week)                     |
 | 8   | Week-8       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/8th-week)                     |
 | 9   | Week-9       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/9th-week)                     |
+| 10  | Week-10       | [Source](https://github.com/sinantech/PatikaFrontendCourse/tree/main/10th-week)                     |
 
 Week 7 main.js kodları açıklaması:
 
